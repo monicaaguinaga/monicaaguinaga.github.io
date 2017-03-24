@@ -1,3 +1,51 @@
 body {
   font-family: 'Dosis', sans-serif;
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left,   #F6C4D7, #93C8E1 ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left,  #F6C4D7, #93C8E1 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
       }
+
+.main {
+    border: 3px solid #000;
+    margin: 25px;
+    background: -webkit-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    background:    -moz-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    background:     -ms-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    background:      -o-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    background:         linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+.main h1{
+  font-size: 4em;
+}
+.main p {
+  font-size: 2em;
+}
+.about p{
+    font-size: 1.2em;
+    text-align: left;
+
+}
+
+.contact  {
+  border: black 3px solid;
+  background-color: #fff;
+  padding: 15px 10px 10px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 25px;
+}
+li {
+  display: inline;
+  padding-right: 20px;
+}
