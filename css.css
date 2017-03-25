@@ -1,3 +1,31 @@
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+
+  animation: wiggle 2.5s infinite;
+  transition: all .2s ease-in-out;
+  margin: 0 auto;
+}
+
+.wiggle:hover {
+  animation: none;
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(5deg); }
+ 95% { transform: rotate(-5deg); }
+100% { transform: rotate(0deg); }
+}
+
+
+
 body {
   font-family: 'Dosis', sans-serif;
   background: #114357; /* fallback for old browsers */
@@ -9,8 +37,8 @@ body {
 
 .main {
     border: 3px solid #000;
-    margin: 25px;
-    background: -webkit-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
+    margin: 50px;
+    background -webkit-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
     background:    -moz-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
     background:     -ms-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
     background:      -o-linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
@@ -52,12 +80,30 @@ body {
   width: 300px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 1.6em;
+
+}
+
+
+.contact a {
+  text-decoration: none;
+    color: #000;
 }
 ul {
   list-style: none;
-  padding: 25px;
+  padding: 0 25px 25px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 li {
-  display: inline;
-  padding-right: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.social p {
+  text-align: center;
 }
