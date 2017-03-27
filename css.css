@@ -45,7 +45,7 @@ body {
     background:         linear-gradient(40deg, #A2DAD0 10%, #24C0D9 100%);
     padding: 20px;
     text-align: center;
-    height: 550px;
+
 }
 
 .main h1{
@@ -68,7 +68,9 @@ body {
   letter-spacing: .2em;
 }
 
-
+.about{
+  height: auto;
+}
 
 
 .about p{
@@ -77,6 +79,7 @@ body {
     text-transform: inherit;
     letter-spacing: .02em;
     padding-top: 30px;
+    line-height: 1.8em;
 
 
 }
@@ -104,10 +107,14 @@ body {
 
 .about img {
   float: left;
+  position: relative;
+  right:20px;
+  top: 20px;
   transform: rotate(-8deg);
   box-shadow: 1px 1px 15px #000;
-  width: 300px;
+  width: 325px;
   z-index: 100;
+
 }
 .contact  {
   border: black 3px solid;
