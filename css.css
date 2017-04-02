@@ -171,3 +171,14 @@ h2 {
 .social a:hover{
   text-shadow: 2px 2px 20px yellow;
 }
+
+
+.credit a{
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: lighter;
+
+}

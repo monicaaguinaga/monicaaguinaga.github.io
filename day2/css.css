@@ -1,0 +1,17 @@
+body {
+  font-family: 'Mate SC', serif;
+}
+
+
+.main {
+  width: 50%;
+  border: 1px solid grey;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F2F2F2;
+}
+
+
+li {
+  list-style-type: none;
+}
