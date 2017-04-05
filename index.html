@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <style media="screen">
+      body {
+        font-family: 'VT323', monospace;
+        color: #fff;
+        font-size: 2em;
+        background: #FEAC5E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+      h1 {
+        text-align: center;
+        font-size: 3em;
+          transition: 0.2s;
+      }
+
+      h1:hover {
+        text-shadow: 1px 1px 10px yellow;
+      }
+
+      p, ul{
+        text-align: center;
+      }
+
+      ul{
+        list-style-type: none;
+        width: 50%;
+        text-align: justify;
+        border: 5px dashed #fff;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 50px;
+      }
+
+      a{
+        color: yellow;
+      }
+
+      a:hover {
+        text-shadow: 1px 1px 10px #fff;
+      }
+
+      .footer {
+        margin-top: 40px;
+      }
+    </style>
     <meta charset="utf-8">
     <title>30 Day Challenge</title>
   </head>
   <body>
     <h1>30 days | 30 Sites</h1>
-    <p>Build a website everyday for 30 days to master the frontend. Learn more
+    <p>Build a website everyday for 30 days to master the frontend. </br>Learn more
     about this challenge <a href="http://www.subscribepage.com/30days30sites?utm_source=newsletter&utm_medium=email&utm_campaign=30_days_30_sites_day_12&utm_term=2017-04-04">here.</a></p>
 
     <ul>
       <li><a href="https://monicaaguinaga.github.io/day1/">Day 1 | Portfolio</a></li>
       <li>Day 2 | Event Invitation</li>
     </ul>
+    <div class="footer">
+      <p>Design & Development by <a href="http://monica-aguinaga.co">www.monica-aguinaga.co</a></p>
+    </div>
   </body>
 </html>
