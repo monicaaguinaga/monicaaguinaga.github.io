@@ -1,5 +1,7 @@
 body {
   font-family: 'Mate SC', serif;
+  color: #660e29;
+  background-image: url("colin-1600.jpg");
 }
 h1{
   font-size: 3em;
@@ -32,9 +34,11 @@ h4{
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  background-color: #F2F2F2;
-  padding: 0;
-  padding: 20px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,.95);
+  padding: 25px;
+  margin-top: 20px;
+  border: 1px solid grey;
 }
 
 
@@ -68,23 +72,28 @@ li {
 .rsvp a {
   font-size: 4em;
   text-decoration: none;
-  letter-spacing: 2em;
-  margin: 20px 0 20px 0;
-
-
-}
-.rsvp a:visited {
+  letter-spacing: 75px;
   color: #ccc;
+  text-align: center;
+  justify-content: center;
+  padding-left: 50px;
+  transition:.5s;
+
+
+
 }
+
 
 .rsvp {
   padding: 50px;
   text-align: center;
-  width: inherit;
+
+
 }
 
 .rsvp a:hover{
-  color: #000;
+  color: #454647;
+  
 }
 .date {
   padding-bottom: 15px;
@@ -102,3 +111,12 @@ li {
   letter-spacing: .5em;
 
 }
+
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) { .rsvp a {
+  font-size: 2em;
+
+  }}
